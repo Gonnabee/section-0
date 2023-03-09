@@ -1,0 +1,43 @@
+.box1 {
+  background-color: #eb7399;
+  position:relative;
+  left: 90px;
+  top: 90px;
+  z-index: 5;
+  
+}
+
+.box2 {
+  background-color: #eaeb73;
+  position:absolute; 
+  /*html에 position: static;이 아닌 부모가 없으므로 
+  body태그를 기준으로 움직임*/
+  left: 75px;
+  top: 75px;
+  z-index: 4;
+}
+
+
+.box3 {
+  background-color: #77eb73;
+  position:absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 3;
+}
+
+
+.box4 {
+  background-color: #73bbea;
+  position:absolute;
+  left: 25px;
+  top: 25px;
+  z-index: 2;
+}
+
+
+.box {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
